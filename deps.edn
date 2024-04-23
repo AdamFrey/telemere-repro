@@ -1,0 +1,9 @@
+{:deps
+ {com.taoensso/slf4j-telemere {:mvn/version "1.0.0-beta2"}
+  com.taoensso/telemere       {:mvn/version "1.0.0-beta2"}
+  org.slf4j/slf4j-api         {:mvn/version "2.0.13"}
+  org.clojure/tools.logging   {:mvn/version "1.3.0"}}
+
+ :aliases
+ {:repro
+  {:exec-fn telemere-repro/-main}}}
